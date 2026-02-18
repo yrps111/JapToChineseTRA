@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本项目的临时文件
+temp/
+segments/
+full_audio.wav
+
+# 配置文件（含API Key，绝对不能上传！）
+.jp_subtitle_tool/
+
+# 模型文件（太大了不传）
+model/
+*.bin
+*.pt
