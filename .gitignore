@@ -36,3 +36,7 @@ full_audio.wav
 model/
 *.bin
 *.pt
+# PyInstaller 打包产物
+dist/
+build/
+*.spec
